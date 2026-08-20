@@ -60,7 +60,7 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xuedai-mayi/xuedai-mayi/output/github-profile-3d-contrib-night.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xuedai-mayi/xuedai-mayi/output/github-profile-3d-contrib-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xuedai-mayi/xuedai-mayi/output/github-profile-3d-contrib-day.svg" />
     <img width="100%" src="https://raw.githubusercontent.com/xuedai-mayi/xuedai-mayi/output/github-profile-3d-contrib-day.svg" alt="GitHub 3D 贡献地形" />
   </picture>
