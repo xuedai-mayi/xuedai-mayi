@@ -20,9 +20,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,c,cs,pytorch,nodejs,react,linux,git,github&theme=dark&perline=11" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,c,cs,pytorch,nodejs,react,linux,git,github&theme=light&perline=11" />
-    <img src="https://skillicons.dev/icons?i=python,ts,js,c,cs,pytorch,nodejs,react,linux,git,github&theme=light&perline=11" alt="Python、TypeScript、JavaScript、C、C#、PyTorch、Node.js、React、Linux、Git 和 GitHub" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cts%2Cjs%2Chtml%2Ccss%2Cc%2Ccpp%2Ccs%2Cpytorch%2Cnodejs%2Creact%2Clinux%2Cgit%2Cgithub%2Cgithubactions%2Cvscode%2Cobsidian%2Cmd&amp;theme=dark&amp;perline=9" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python%2Cts%2Cjs%2Chtml%2Ccss%2Cc%2Ccpp%2Ccs%2Cpytorch%2Cnodejs%2Creact%2Clinux%2Cgit%2Cgithub%2Cgithubactions%2Cvscode%2Cobsidian%2Cmd&amp;theme=light&amp;perline=9" />
+    <img src="https://skillicons.dev/icons?i=python%2Cts%2Cjs%2Chtml%2Ccss%2Cc%2Ccpp%2Ccs%2Cpytorch%2Cnodejs%2Creact%2Clinux%2Cgit%2Cgithub%2Cgithubactions%2Cvscode%2Cobsidian%2Cmd&amp;theme=light&amp;perline=9" alt="Python、TypeScript、JavaScript、HTML、CSS、C、C++、C#、PyTorch、Node.js、React、Linux、Git、GitHub、GitHub Actions、VS Code、Obsidian 和 Markdown" />
   </picture>
 </div>
 
