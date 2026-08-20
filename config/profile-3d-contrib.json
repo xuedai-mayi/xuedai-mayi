@@ -1,0 +1,36 @@
+[
+  {
+    "type": "normal",
+    "fileName": "github-profile-3d-contrib-day.svg",
+    "backgroundColor": "#ffffff",
+    "foregroundColor": "#4a4560",
+    "strongColor": "#7f6aa8",
+    "weakColor": "#c5bfd0",
+    "radarColor": "#b28acb",
+    "growingAnimation": true,
+    "contribColors": [
+      "#f6f8fa",
+      "#f6d5e5",
+      "#dfb4dd",
+      "#b99bd7",
+      "#8b7bb8"
+    ]
+  },
+  {
+    "type": "normal",
+    "fileName": "github-profile-3d-contrib-night.svg",
+    "backgroundColor": "#0d1117",
+    "foregroundColor": "#e6edf3",
+    "strongColor": "#f2b8d5",
+    "weakColor": "#7d8590",
+    "radarColor": "#c7a9e8",
+    "growingAnimation": true,
+    "contribColors": [
+      "#161b22",
+      "#3b3352",
+      "#695a87",
+      "#9a7bb7",
+      "#f2b8d5"
+    ]
+  }
+]
