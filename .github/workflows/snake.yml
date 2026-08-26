@@ -38,6 +38,25 @@ jobs:
       - name: Collect 3D contribution files
         run: cp profile-3d-contrib/*.svg dist/
 
+      # streak-stats.demolab.com 响应常超过 GitHub camo 的超时上限，直接引用会裂图。
+      # 这里每天抓一次存进 output 分支，README 引用 raw 地址；抓取失败时保留上一版。
+      - name: Fetch streak cards
+        run: |
+          mkdir -p dist
+          BASE="https://streak-stats.demolab.com?user=${{ github.repository_owner }}&hide_border=true&locale=zh_Hans"
+          DARK="$BASE&background=0d1117&ring=b28acb&fire=f2b8d5&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=c7a9e8&sideLabels=c7a9e8&dates=7d8590"
+          LIGHT="$BASE&background=ffffff&ring=b28acb&fire=df8eb8&currStreakNum=4a4560&sideNums=4a4560&currStreakLabel=8b7bb8&sideLabels=8b7bb8&dates=8a8598"
+          RAW="https://raw.githubusercontent.com/${{ github.repository }}/output"
+          fetch_card() {
+            curl -sf --retry 2 -m 30 "$RAW/$2" -o "dist/$2" || true
+            if curl -sf --retry 2 -m 90 "$1" -o /tmp/card.svg && grep -q "<svg" /tmp/card.svg; then
+              mv /tmp/card.svg "dist/$2"
+            fi
+            test -s "dist/$2"
+          }
+          fetch_card "$DARK" github-streak-stats-dark.svg
+          fetch_card "$LIGHT" github-streak-stats-light.svg
+
       - name: Publish animations
         uses: crazy-max/ghaction-github-pages@v5
         with:
