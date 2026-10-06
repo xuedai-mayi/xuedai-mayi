@@ -41,9 +41,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xuedai-mayi/xuedai-mayi/output/github-streak-stats-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xuedai-mayi/xuedai-mayi/output/github-streak-stats-light.svg" />
-    <img src="https://raw.githubusercontent.com/xuedai-mayi/xuedai-mayi/output/github-streak-stats-light.svg" alt="GitHub contribution streak stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=xuedai-mayi&amp;hide_border=true&amp;locale=en&amp;background=0d1117&amp;ring=b28acb&amp;fire=f2b8d5&amp;currStreakNum=e6edf3&amp;sideNums=e6edf3&amp;currStreakLabel=c7a9e8&amp;sideLabels=c7a9e8&amp;dates=7d8590" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=xuedai-mayi&amp;hide_border=true&amp;locale=en&amp;background=ffffff&amp;ring=b28acb&amp;fire=df8eb8&amp;currStreakNum=4a4560&amp;sideNums=4a4560&amp;currStreakLabel=8b7bb8&amp;sideLabels=8b7bb8&amp;dates=8a8598" />
+    <img src="https://streak-stats.demolab.com?user=xuedai-mayi&amp;hide_border=true&amp;locale=en&amp;background=ffffff&amp;ring=b28acb&amp;fire=df8eb8&amp;currStreakNum=4a4560&amp;sideNums=4a4560&amp;currStreakLabel=8b7bb8&amp;sideLabels=8b7bb8&amp;dates=8a8598" alt="GitHub contribution streak stats" />
   </picture>
 
   <br /><br />
