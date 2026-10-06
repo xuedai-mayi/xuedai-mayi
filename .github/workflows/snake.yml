@@ -43,7 +43,7 @@ jobs:
       - name: Fetch streak cards
         run: |
           mkdir -p dist
-          BASE="https://streak-stats.demolab.com?user=${{ github.repository_owner }}&hide_border=true&locale=zh_Hans"
+          BASE="https://streak-stats.demolab.com?user=${{ github.repository_owner }}&hide_border=true&locale=en"
           DARK="$BASE&background=0d1117&ring=b28acb&fire=f2b8d5&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=c7a9e8&sideLabels=c7a9e8&dates=7d8590"
           LIGHT="$BASE&background=ffffff&ring=b28acb&fire=df8eb8&currStreakNum=4a4560&sideNums=4a4560&currStreakLabel=8b7bb8&sideLabels=8b7bb8&dates=8a8598"
           RAW="https://raw.githubusercontent.com/${{ github.repository }}/output"
